@@ -1,5 +1,7 @@
-## 1, Window 10 11
+## Windows 10/11
 
-### On/Off defender
+### Bật/Tắt Windows Defender
+```powershell
 powershell -Command "Set-MpPreference -DisableRealtimeMonitoring $true"
 powershell -Command "Set-MpPreference -DisableRealtimeMonitoring $false"
+```
